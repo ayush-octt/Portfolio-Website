@@ -106,10 +106,10 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 .home-main-content-left, .home-main-content-right
 {
-    height: 25vh;
+    height: 35vh;
 }
 .home-main-content-head, .home-main-content-foot{
     grid-column-start: span 2;
-    height: 100px;
+    height: 55px;
 }
 }
