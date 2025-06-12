@@ -7,14 +7,39 @@
 .home-container{
     margin: 2rem;
     width: 80rem;
-    height: 92vh;
+    height: 41.5rem;
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-template-rows: 0.3fr 2fr;
     gap: 1.545rem;
 }
 .home-nav-bar{
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.home-icon,
+.project-icon,
+.contact-icon
+{
+    height: 2rem;
+    width: 2rem;
+}
+.hire-icon{
+    height: 1rem;
+    width: 1rem;
+    padding-bottom: 0.2rem;
+}
+.hire-button{
+    border: 0rem;
+    border-radius: 0.6rem;
+    color: white;
+    background-color: black;
+    padding: 0.3rem;
+    box-shadow: 0.25rem 0.25rem 0.0001rem rgb(83, 83, 83);
+}
+.hire-button:hover{
+    box-shadow: 0rem 0rem rgb(83, 83, 83);
 }
 .home-main-content{
     grid-row-start: span 2;
@@ -32,6 +57,14 @@
     
 .home-container{
     grid-template-columns: 1fr;
-    grid-template-rows: 0.1fr 0.1fr 0.35fr
-}    
+    grid-template-rows: 0.1fr 0.1fr 0.35fr;
+}
+.hire-button{
+    font-size: small;
+} 
+.hire-icon{
+    height: 0.8rem;
+    width: 0.8rem;
+    padding-bottom: 0.2rem;
+}
 }
