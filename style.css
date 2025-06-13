@@ -10,7 +10,7 @@
     height: 41.5rem;
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-template-rows: 0.3fr 2fr;
+    grid-template-rows: 0.25fr 2fr;
     gap: 1.545rem;
 }
 .home-nav-bar{
@@ -58,7 +58,7 @@
 .home-container{
     grid-template-columns: 1fr;
     grid-template-rows: 0.04fr 0.1fr 0.35fr;
-    height: 80rem;
+    height: 60rem;
 }
 .hire-button{
     font-size: small;
