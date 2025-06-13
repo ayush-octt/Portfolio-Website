@@ -58,7 +58,7 @@
 .home-container{
     grid-template-columns: 1fr;
     grid-template-rows: 0.04fr 0.1fr 0.35fr;
-    height: 100rem;
+    height: 80rem;
 }
 .hire-button{
     font-size: small;
