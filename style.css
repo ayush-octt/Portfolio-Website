@@ -28,7 +28,8 @@
     height: 2rem;
     width: 2rem;
 }
-.hire-icon{
+.hire-icon,
+.copy-icon{
     height: 1rem;
     width: 1rem;
     padding-bottom: 0.2rem;
@@ -37,12 +38,12 @@
     border: 0rem;
     border-radius: 0.6rem;
     color: white;
-    background-color: black;
+    background-color: #203e86;
     padding: 0.3rem;
-    box-shadow: 0.25rem 0.25rem 0.0001rem rgb(83, 83, 83);
+    box-shadow: 0.28rem 0.28rem 0.0001rem #000000;
 }
 .hire-button:hover{
-    box-shadow: 0rem 0rem rgb(83, 83, 83);
+    box-shadow: 0rem 0rem #000000;
 }
 .home-main-content{
     grid-row-start: span 2;
@@ -68,14 +69,15 @@
 .main-first-title{
     font-size: 1.5rem;
     font-weight: bold;
+    margin-right: 0.2rem;
 }
 .main-second-title{
     font-size: 3rem;
     color: #203e86;
     font-weight: bolder;
 }
-.main-content{
-    /* background-color: aqua; */
+.home-main-body{
+    background-color: #ffffff;
 }
 .home-side-content{
 
@@ -103,7 +105,8 @@
     height: 1.5rem;
     width: 1.5rem;
 }
-.hire-icon{
+.hire-icon,
+.copy-icon{
     height: 0.8rem;
     width: 0.8rem;
     margin-right: 0.1rem;
@@ -126,4 +129,5 @@
     height: 1.2rem;
     width: 1.2rem;
 }
+
 }
