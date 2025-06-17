@@ -78,6 +78,56 @@
 }
 .home-main-body{
     background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.3fr 1fr 0.3fr;
+}
+.home-main-body-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+}
+.home-main-body-head-title{
+    margin-left: 1rem;
+    font-size: 0.6rem;
+    font-weight: bolder;
+    color: grey;
+}
+.home-main-body-head-title-two{
+    margin-right: 2rem;
+    padding: 0rem 0.8rem;
+    border: 0.1rem solid #2b794a;
+    border-radius: 2rem;
+    color: #2b794a;
+    font-size: 0.6rem;
+    background-color: #d2f8e2;
+    font-weight: bolder;
+}
+.home-main-body-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profile-picture{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+}
+
+.home-main-body-content-text-title-two{
+    margin: 0rem;   
+}
+
+.copy-email-button{
+    border: 0rem;
+    border-radius: 0.6rem;
+    color: white;
+    background-color: #203e86;
+    padding: 0.3rem;
+}
+.home-color{
+    /* background-color: #203e86; */
 }
 .home-side-content{
 
@@ -129,5 +179,13 @@
     height: 1.2rem;
     width: 1.2rem;
 }
-
+.home-main-body-head-title{
+    margin-left: 0rem;
+    font-size: 0.4r5em;
+}
+.home-main-body-head-title-two{
+    margin-right: 1rem;
+    font-size: 0.5rem;
+    padding: 0rem 0.4rem;
+}
 }
