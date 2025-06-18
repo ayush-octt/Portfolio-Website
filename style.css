@@ -129,6 +129,15 @@
 .home-color{
     /* background-color: #203e86; */
 }
+
+.home-main-foot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
 .home-side-content{
 
 }
@@ -187,5 +196,22 @@
     margin-right: 1rem;
     font-size: 0.5rem;
     padding: 0rem 0.4rem;
+}
+.home-main-body-content-text-title-one,
+.home-main-body-content-text-title-two,
+.home-main-body-content-text-title-three
+{
+    font-size: 0.7rem;
+}
+.profile-picture
+{
+    height: 8rem;
+    width: 8rem;
+}
+.copy-email-button{
+    font-size: 0.6rem;
+}
+.home-main-foot{
+    font-size: 0.6rem;
 }
 }
